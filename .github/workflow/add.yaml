@@ -1,5 +1,9 @@
 name: go-pipiline
-on: push
+on:
+ push:
+    branches: [ "branch1" ]
+  pull_request:
+    branches: [ "main" ] 
 jobs:
   test:
     runs-on: ubuntu-latest

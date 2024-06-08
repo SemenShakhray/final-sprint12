@@ -1,4 +1,4 @@
-name: go-pipiline
+name: go-pipiline1
 on: push
 jobs:
   test:
